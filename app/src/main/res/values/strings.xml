@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Examen_Solis_Cordova</string>
+    <string name="CTituloNombre_IngresarS">Ingrese un numero: </string>
+    <string name="CNumero_IngresoS"></string>
+    <string name="CBoton1S">INGRESAR</string>
+    <string name="CBoton2S">CERRAR</string>
+    <string name="CListaNumerosS"></string>
 </resources>
