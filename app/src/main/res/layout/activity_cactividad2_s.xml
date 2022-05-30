@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.215" />
 
     <EditText
-        android:id="@+id/textView6"
+        android:id="@+id/CNumero_IngresoS"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:layout_marginStart="60dp"
@@ -38,7 +38,7 @@
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/CNumero_IngresoS"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.412" />
 
@@ -51,5 +51,15 @@
         android:text="@string/CBoton2S"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="150dp"
+        android:layout_height="176dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="176dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
