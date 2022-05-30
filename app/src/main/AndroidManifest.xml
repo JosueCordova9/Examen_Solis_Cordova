@@ -13,11 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen_Solis_Cordova"
         tools:targetApi="31">
+
         <activity
             android:name=".CActividad2S"
             android:screenOrientation="landscape"
             android:exported="false" />
         <activity
+            android:screenOrientation="landscape"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
