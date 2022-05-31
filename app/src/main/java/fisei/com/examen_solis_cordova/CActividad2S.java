@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -24,6 +25,7 @@ public class CActividad2S extends AppCompatActivity {
     private Button ingresar;
     private List<Integer> miLista = new ArrayList<Integer>();
     private ArrayAdapter<Integer> arreglo;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +51,6 @@ public class CActividad2S extends AppCompatActivity {
     }
 
     public void CCerrarS(View view){
-
 //        Toast.makeText(this, , Toast.LENGTH_LONG).show();
         ListView listavalores;
 
