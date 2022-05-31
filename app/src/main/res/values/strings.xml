@@ -4,7 +4,9 @@
     <string name="CNumero_IngresoS"></string>
     <string name="CBoton1S">INGRESAR</string>
     <string name="CBoton2S">CERRAR</string>
-    <string name="CListaNumerosS"></string>\
+    <string name="CListaNumerosS"></string>
+    <string name="CVectorIndicesS"></string>
+    <string name="CVectorOriginalS"></string>
     <string name="CTitulo1S">Visualizacion del vector ORDENADO usando el vector Indices</string>
     <string name="CTitulo2S">Vector de Indices</string>
     <string name="CTitulo3S">Vector Original</string>

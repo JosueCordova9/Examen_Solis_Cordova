@@ -45,18 +45,18 @@ public class CActividad2S extends AppCompatActivity {
             lista.setAdapter(arreglo);
         }
 
-//        lista = numeros;
-//
-//        Intent intent = new Intent();
-//
-//        intent.putExtra("numeros",numeros);
-//
-//        setResult(Activity.RESULT_OK,intent);
     }
 
     public void CCerrarS(View view){
+        ListView listavalores;
+
+        listavalores = lista;
+
         Intent intent = new Intent(this,MainActivity.class);
-        startActivity(intent);
+        intent.putExtra("lista", String.valueOf(lista));
+
+        setResult(Activity.RESULT_OK, intent);
+        this.finish();
     }
 
 }
