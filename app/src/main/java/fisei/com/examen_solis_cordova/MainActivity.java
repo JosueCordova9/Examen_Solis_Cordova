@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     //
     public void CSegundaActividadS(View view){
         Intent intent = new Intent(this,CActividad2S.class);
-        startActivity(intent);
+        startActivityForResult(intent,ACTIVITY2);
     }
 
     @Override

@@ -57,7 +57,7 @@ public class CActividad2S extends AppCompatActivity {
 
 
         Intent intent = new Intent(this,MainActivity.class);
-        intent.putExtra("lista", String.valueOf((listavalores)));
+        intent.putExtra("lista", String.valueOf(listavalores));
 
         setResult(Activity.RESULT_OK, intent);
         this.finish();
