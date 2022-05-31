@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,12 +49,15 @@ public class CActividad2S extends AppCompatActivity {
     }
 
     public void CCerrarS(View view){
+
+//        Toast.makeText(this, , Toast.LENGTH_LONG).show();
         ListView listavalores;
 
-        listavalores = lista;
+        listavalores = (ListView) lista.getAdapter();
+
 
         Intent intent = new Intent(this,MainActivity.class);
-        intent.putExtra("lista", String.valueOf(lista));
+        intent.putExtra("lista", String.valueOf((listavalores)));
 
         setResult(Activity.RESULT_OK, intent);
         this.finish();
